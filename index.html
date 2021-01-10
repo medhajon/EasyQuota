@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Testing</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="compiled/home.css"> 
+        <style>
+            @media screen and (max-width: 1140px){
+                .features img {
+                    width:"200px";
+                    height:"300px";
+                }
+            }
+            @media screen and (max-width: 1050px){
+                .features img {
+                    width:"100px";
+                    height:"150px";
+                }
+            }
+        </style>
+   
+    </head>
+
+    <body>
+            <nav> 
+                <div class="logo">
+                    <img src="images/logoSub.png">
+                </div>                     
+                    <ul class="menuOptions"> 
+                        <li><a href="pages/signIn.html" class="signIn">Sign In</a></li>                  
+                        <li><a href="pages/aboutUs.html"class="aboutUs">About Us</a></li>
+                        <li><a href="index.html" class="home">Home</a></li>                          
+                    </ul>                  
+            </nav>
+
+           
+            <div class="totals">
+                <div class="home-section">                 
+                    <h1 >Organization is key to success</h1>
+
+
+                    <form action="pages/myMeeting.html" class="turnedIn">
+                        <label for="password"> Enter passcode</label> 
+                        <input type="password" name="password" id="password" maxlength="6">                        
+                      <input type="submit" value="Submit">                        
+                    </form> 
+                    <p>
+                        or
+                    </p><a href="pages/createMeeting.html"><button> Create a meeting</button> </a> </p>
+                    
+                </div>
+
+                <div class="bottom-section">                 
+                    <h1 >Welcome!</h1>
+                </div>
+            </div>
+            <section class="features">
+       
+                <img src="images/notebook.jpg"; width="400px"; height="600px"; alt="pretty">
+
+            </section>
+           
+    </body>
+    
+</html>

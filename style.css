@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f6f6f2;
+}
+
+.logo{
+    flex-basis: 20%;
+    margin-top: 10px; 
+    margin-left: 60px;
+}
+.logo img{
+    width: 150px;
+}
+
+.menuOptions{
+    padding:-30px;
+    display: inline;
+    list-style: none;        
+}
+
+.menuOptions li{
+    float: right;
+    margin-right: 10px;  
+}
+
+/* Button Characteristics */
+.menuOptions li a{
+    columns: #efe2ba;;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+    text-transform: uppercase;
+
+}
+.menuOptions li a.home{
+    background-color: #badfe7;
+}
+.menuOptions li a.aboutUs{
+    background-color: #6fb3b8;
+}
+.menuOptions li a.signIn{
+    background-color: #388087;
+}
+
+.menuOptions li a:hover{
+    background-color: #c5cbe3;
+}   
+
+.sectionPort{
+    padding: 0px 0px 50px 0px;
+    text-align: left;
+    line-height: 32px;
+}
+
+.sectionPort h1{
+    background-color: #badfe7;
+}
+.sectionPort h2{
+    background-color: pink;
+}
+.sectionPort h3{
+    background-color:#388087;
+}
+    

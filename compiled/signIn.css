@@ -1,0 +1,14 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.totals{
+    background-color: #badfe7;
+}
+.google {
+    
+    position: absolute;
+    top: 320px;
+    left:10%;
+    width:30%;
+    color: #445A69;
+}
